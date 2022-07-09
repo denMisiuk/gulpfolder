@@ -1,0 +1,18 @@
+@import "var/mixins.scss";
+@import "var/various.scss";
+
+
+
+body {
+   background: url("../img/flow.jpg") 0 0/100% auto no-repeat ;
+   font-size: $base-font-size;
+   @include mx {
+      background-color: red;
+   }
+}
+
+
+
+
+@import "block/title.scss";
+@import "block/news.scss";

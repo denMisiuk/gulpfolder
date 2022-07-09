@@ -1,0 +1,4 @@
+.news {
+   text-decoration: dashed;
+   @include mx{color: green;}
+}
